@@ -1,0 +1,60 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+
+/*  rem ist Größe relativ zum root Element
+    root element ist html
+    em ist Größe relativ zum Parent
+*/
+
+h1 {
+    font-size: 4rem;
+    text-align: center;
+    color: red;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    font-size: 1.5rem;
+}
+
+ul,
+li {
+    display: inline;
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    display: flex;
+    flex: 1;
+    justify-content: space-evenly;
+    max-width: 50%;
+}
+
+
+/* max-width: 900px bedeutes css gilt für alle screens mit <= 900px */
+
+
+/* max-width: 1000px bedeutes css gilt für alle screens mit >= 1000px */
+
+@media (max-width: 900px) {
+    h1 {
+        color: green;
+    }
+}
+
+@media (max-width: 500px) {
+    h1 {
+        color: orange;
+        font-size: 3rem;
+    }
+    nav,
+    ul {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}

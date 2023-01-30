@@ -1,0 +1,26 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+h1 {
+    text-align: center;
+}
+
+#container {
+    background-color: #003049;
+    width: 90vw;
+    height: 500px;
+    margin: 0 auto;
+    border: 5px solid #003049;
+    /* Start ab hier: */
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+
+#container div {
+    width: 80px;
+    height: 70px;
+}

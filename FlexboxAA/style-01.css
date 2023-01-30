@@ -1,0 +1,106 @@
+/* APPEARANCE STYLES*/
+
+@import url("https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900");
+
+/*  LAYOUT STYLES */
+
+
+/*
+display:flex;
+flex-direction: row;              
+flex-wrap: wrap;
+justify-content: space-around;    // main-axis
+align-items: flex-start;          // cross-axis
+
+*/
+
+.container {
+    border: 2px solid black;
+    height: 10vh;
+    display: flex;
+}
+
+
+/* Ab hier kommen deine eigenen Klassen für die entsrechenden container rein */
+
+.container-rechts {
+    border: 2px solid black;
+    height: 10vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+.container-zentriert {
+    border: 2px solid black;
+    height: 10vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-4 {
+    border: 2px solid black;
+    height: 10vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.container-5 {
+    border: 2px solid black;
+    height: 10vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.box {
+    font-size: 40px;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    font-family: lato;
+    font-weight: 300;
+    box-sizing: border-box;
+    width: 50px;
+    height: 65px;
+}
+
+.box-1 {
+    background: #e51400;
+}
+
+.box-2 {
+    background: #fa6800;
+}
+
+.box-3 {
+    background: #f0a30a;
+}
+
+.box-4 {
+    background: #e3c800;
+}
+
+.box-5 {
+    background: #a4c400;
+}
+
+.box-6 {
+    background: #60a917;
+}
+
+.box-7 {
+    background: #00aba9;
+}
+
+.box-8 {
+    background: #1ba1e2;
+}
+
+.box-9 {
+    background: #aa00ff;
+}

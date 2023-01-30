@@ -1,0 +1,44 @@
+body {
+    background-color: #4A78AD;
+}
+
+.menu1 {
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 1280px;
+    background-color: #3C6592;
+    display: flex;
+    justify-content: space-between;
+    height: 30px;
+}
+
+.upper {
+    margin: 6px;
+    color: white;
+}
+
+.banner {
+    background-image: url("banner.png");
+    height: 150px;
+    width: 380px;
+}
+
+.menu2 {
+    font-weight: bold;
+    width: 1280px;
+    background-color: #3C6592;
+    display: flex;
+    justify-content: space-between;
+    height: 40px;
+}
+
+.lower {
+    margin: 10px;
+    color: white;
+}
+
+.lowerbild {
+    background-image: url("news.png");
+    height: 510px;
+    width: 1280px;
+}
